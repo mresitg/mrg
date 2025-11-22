@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { BrowserRouter, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/Aboutme';
+import About from './pages/About';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import profileImg from './Adsız tasarım (14).png';
