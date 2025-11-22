@@ -4,11 +4,11 @@ function Contact() {
   return (
     <section className="min-h-screen flex items-center justify-center py-20 relative z-10">
       <div className="max-w-4xl mx-auto px-8 w-full">
-        <h2 className="text-5xl font-bold mb-12">
+        <h2 className="text-5xl font-bold mb-12 opacity-0 animate-slide-up">
           contact<span className="text-cyan-400">_</span>
         </h2>
 
-        <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-12 shadow-2xl">
+        <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-12 shadow-2xl opacity-0 animate-slide-up animate-delay-100">
           <div className="space-y-8">
             <div className="flex items-center gap-4 group">
                
