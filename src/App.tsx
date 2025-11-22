@@ -152,7 +152,7 @@ function AppContent() {
             >
               <span className="relative z-10">contact</span>
               {activeSection === 'contact' && (
-                <span className="absolute inset-0 bg-cyan-400/10 blur-xl rounded-full"></span>
+                <span className="absolute inset-0 bg-cyan-400/10 blur-xl rounded-full"></span> 
               )}
             </button>
           </div>
@@ -168,7 +168,7 @@ function AppContent() {
         </Routes>
       </div>
 
-      <footer className="py-20 text-center text-gray-500 text-sm relative z-10 mt-auto">
+      <footer className="py-6 text-center text-gray-500 text-sm relative z-10 mt-auto">
         <p>&copy; 2025 Mehmet Reşit Gül</p>
       </footer>
     </div>
