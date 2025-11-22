@@ -80,4 +80,4 @@ function About() {
   );
 } 
 
-export default About Me;
+export default About;
