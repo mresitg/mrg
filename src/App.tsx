@@ -168,7 +168,7 @@ function AppContent() {
         </Routes>
       </div>
 
-      <footer className="py-6 text-center text-gray-500 text-sm relative z-10 mt-auto">
+      <footer className="py-8 text-center text-gray-500 text-sm absolute bottom-0 left-0 right-0 z-10">
         <p>&copy; 2025 Mehmet Reşit Gül</p>
       </footer>
     </div>
