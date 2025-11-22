@@ -127,7 +127,7 @@ function AppContent() {
                 activeSection === 'about' ? 'text-cyan-400' : 'hover:text-gray-300'
               }`}
             >
-              <span className="relative z-10">about</span>
+              <span className="relative z-10">about me</span>
               {activeSection === 'about' && (
                 <span className="absolute inset-0 bg-cyan-400/10 blur-xl rounded-full"></span>
               )}
