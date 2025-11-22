@@ -159,7 +159,7 @@ function AppContent() {
         </div>
       </nav>
       
-      <div key={location.pathname} className="animate-fadeIn">
+      <div key={location.pathname} className="animate-fadeIn flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
