@@ -85,7 +85,7 @@ function AppContent() {
 
   const navigationPaths: { [key: string]: string } = {
     home: '/',
-    about: '/about', 
+    about: '/about',
     contact: '/contact',
   };
 
