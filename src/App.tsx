@@ -106,53 +106,53 @@ function AppContent() {
         className="fixed inset-0 pointer-events-none z-0"
       />
 
-      <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 w-auto mx-auto px-4">
-        <div className="backdrop-blur-xl bg-black/15 border border-white/20 rounded-full px-12 py-3 shadow-[inset_0_0_2px_1px_rgba(255,255,255,0.35),inset_0_0_10px_4px_rgba(255,255,255,0.15),0_4px_16px_rgba(17,17,26,0.05),0_8px_24px_rgba(17,17,26,0.05),0_16px_56px_rgba(17,17,26,0.05)] hover:bg-black/35 hover:border-white/30 transition-all duration-300 flex items-center justify-between min-w-[800px]">
-          <div className="flex items-center gap-2">
-            <img 
-  src={profileImg} 
-  alt="Mehmet Resit Gul" 
-  className="w-8 h-8 rounded-full border border-white/20 object-cover"
-/>
+      <nav className="fixed top-3 md:top-8 left-4 right-4 md:left-1/2 md:-translate-x-1/2 z-50">
+        <div className="backdrop-blur-xl bg-black/15 border border-white/20 rounded-full px-4 md:px-12 py-2 md:py-3 shadow-[inset_0_0_2px_1px_rgba(255,255,255,0.35),inset_0_0_10px_4px_rgba(255,255,255,0.15),0_4px_16px_rgba(17,17,26,0.05),0_8px_24px_rgba(17,17,26,0.05),0_16px_56px_rgba(17,17,26,0.05)] hover:bg-black/35 hover:border-white/30 transition-all duration-300 flex items-center justify-between gap-2 md:gap-auto">
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <img
+              src={profileImg}
+              alt="Mehmet Resit Gul"
+              className="w-6 md:w-8 h-6 md:h-8 rounded-full border border-white/20 object-cover"
+            />
             <button
               onClick={() => navigateTo('home')}
-              className="text-xl font-medium hover:text-cyan-400 transition-colors"
+              className="text-lg md:text-xl font-medium hover:text-cyan-400 transition-colors hidden md:block"
             >
               Mehmet
             </button>
           </div>
-          <div className="flex items-center gap-10">
+          <div className="flex items-center gap-3 md:gap-10 flex-wrap justify-center flex-1 md:flex-none">
             <button
               onClick={() => navigateTo('about')}
-              className={`text-sm font-normal transition-colors relative ${
+              className={`text-xs md:text-sm font-normal transition-colors relative ${
                 activeSection === 'about' ? 'text-cyan-400' : 'hover:text-gray-300'
               }`}
             >
-              <span className="relative z-10">about me</span>
+              <span className="relative z-10">about</span>
               {activeSection === 'about' && (
                 <span className="absolute inset-0 bg-cyan-400/10 blur-xl rounded-full"></span>
               )}
             </button>
             <button
               onClick={() => navigateTo('experience')}
-              className={`text-sm font-normal transition-colors relative ${
+              className={`text-xs md:text-sm font-normal transition-colors relative ${
                 activeSection === 'experience' ? 'text-cyan-400' : 'hover:text-gray-300'
               }`}
             >
-              <span className="relative z-10">experience</span>
+              <span className="relative z-10">exp</span>
               {activeSection === 'experience' && (
                 <span className="absolute inset-0 bg-cyan-400/10 blur-xl rounded-full"></span>
               )}
             </button>
             <button
               onClick={() => navigateTo('contact')}
-              className={`text-sm font-normal transition-colors relative ${
+              className={`text-xs md:text-sm font-normal transition-colors relative ${
                 activeSection === 'contact' ? 'text-cyan-400' : 'hover:text-gray-300'
               }`}
             >
               <span className="relative z-10">contact</span>
               {activeSection === 'contact' && (
-                <span className="absolute inset-0 bg-cyan-400/10 blur-xl rounded-full"></span> 
+                <span className="absolute inset-0 bg-cyan-400/10 blur-xl rounded-full"></span>
               )}
             </button>
           </div>
