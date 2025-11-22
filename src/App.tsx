@@ -122,7 +122,7 @@ function AppContent() {
           </div>
           <div className="flex items-center gap-3 md:gap-10 flex-wrap justify-center flex-1 md:flex-none">
             <button
-              onClick={() => navigateTo('about me')}
+              onClick={() => navigateTo('about')}
               className={`text-xs md:text-sm font-normal transition-colors relative ${
                 activeSection === 'about me' ? 'text-cyan-400' : 'hover:text-gray-300'
               }`}
