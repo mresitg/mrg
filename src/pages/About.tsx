@@ -4,11 +4,11 @@ function About() {
   return (
     <section className="min-h-screen pt-32 pb-20 relative z-10">
       <div className="max-w-4xl mx-auto px-8">
-        <h2 className="text-5xl font-bold mb-12 opacity-0 animate-slide-up">
+        <h2 className="text-5xl font-bold mb-12">
           about me<span className="text-cyan-400">_</span>
         </h2>
 
-        <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-8 mb-12 shadow-2xl opacity-0 animate-slide-up animate-delay-100">
+        <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-8 mb-12 shadow-2xl">
           <div className="flex items-start gap-4 mb-6">
             <Briefcase className="text-cyan-400 mt-1" size={24} />
             <div>
@@ -33,7 +33,7 @@ function About() {
           </div>
         </div>
 
-        <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-8 shadow-2xl opacity-0 animate-slide-up animate-delay-200">
+        <div className="backdrop-blur-md bg-white/3 border border-white/10 rounded-3xl p-8 shadow-2xl">
           <div className="flex items-start gap-4 mb-6">
             <Code className="text-cyan-400 mt-1" size={24} />
             <div>

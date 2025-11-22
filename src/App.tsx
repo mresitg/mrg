@@ -12,8 +12,9 @@ function AppContent() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  // Sayfa geçişi animasyonu
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [location.pathname]);
 
   useEffect(() => {
