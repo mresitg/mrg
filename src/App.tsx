@@ -100,7 +100,7 @@ function AppContent() {
   };
 
   return (
-    <div className="text-white relative overflow-x-hidden" style={{ backgroundColor: '#0F0F0F', minHeight: '100vh' }}>
+    <div className="text-white relative overflow-x-hidden flex flex-col" style={{ backgroundColor: '#0F0F0F', minHeight: '100vh' }}>
       <canvas
         ref={canvasRef}
         className="fixed inset-0 pointer-events-none z-0"
