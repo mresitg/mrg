@@ -124,7 +124,7 @@ function AppContent() {
             <button
               onClick={() => navigateTo('about')}
               className={`text-xs md:text-sm font-normal transition-colors relative ${
-                activeSection === 'about me' ? 'text-cyan-400' : 'hover:text-gray-300'
+                activeSection === 'about' ? 'text-cyan-400' : 'hover:text-gray-300'
               }`}
             >
               <span className="relative z-10">about</span>
